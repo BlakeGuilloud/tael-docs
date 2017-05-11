@@ -1,0 +1,4 @@
+/*
+  colors
+*/
+html{height:100%}body{margin:0;font-family:"Poiret One",cursive;background:linear-gradient(to bottom,#ECCECC,#C9F0EB)}.content{margin-top:40px;display:flex;flex-direction:column;align-items:center}#error:last-child{border-bottom:1px solid #8CAC9B}.content__item{width:800px;border:1px solid #8CAC9B;border-bottom:none;color:#572077}.content__item-header{cursor:pointer;font-size:26px;display:flex;justify-content:space-between;align-items:center;padding:10px;padding-top:20px;padding-bottom:20px}.content__item-header__chevron{height:26px;width:26px}.content__item-details{display:none;padding:10px}.header{display:flex;justify-content:center;align-items:center;padding-top:20px}.header__title{font-size:36px;color:#8CAC9B;margin-top:50px;border-bottom:1px solid #8CAC9B}.header__logo{max-height:200px}.disclaimer{text-align:center;font-size:24px;color:#572077}

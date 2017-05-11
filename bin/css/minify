@@ -1,0 +1,1 @@
+minify [--output public/css/main.min.css] public/css/main.css

@@ -1,0 +1,10 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  // background-color: $brand-tan;
+  background: linear-gradient(to bottom, $brand-tan, $brand-teal);
+}

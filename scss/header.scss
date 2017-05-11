@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header__title {
+  font-size: 36px;
+  color: $brand-green;
+  margin-top: 50px;
+  border-bottom: 1px solid $brand-green;
+}
+
+.header__logo {
+  max-height: 200px;
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 24px;
+  color: $brand-purple;
+}

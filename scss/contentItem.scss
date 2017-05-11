@@ -1,0 +1,38 @@
+.content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#error:last-child {
+  border-bottom: 1px solid $brand-green;
+}
+
+.content__item {
+  width: 800px;
+  border: 1px solid $brand-green;
+  border-bottom: none;
+  color: $brand-purple;
+}
+
+.content__item-header {
+  cursor: pointer;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content__item-header__chevron {
+  height: 26px;
+  width: 26px;
+}
+
+.content__item-details {
+  display: none;
+  padding: 10px;
+}

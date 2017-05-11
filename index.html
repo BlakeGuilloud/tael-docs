@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tael</title>
+  <link rel="icon" href="./public/assets/favicon.ico" type="image/gif" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="./public/css/main.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <img class="header__logo" src="./public/assets/tael.png" alt="">
+      <div class="header__title">
+        tael
+      </div>
+    </div>
+    
+    <div class="disclaimer">
+      a Node.js response utility.
+    </div>
+
+    <div class="content">
+      <div id="error">
+        <div class="content__item">
+          <div class="content__item-header" onclick="showItem('badRequest')">
+            <div class="content__item-header__title">
+              Bad Request
+            </div>
+            <img class="content__item-header__chevron" src="./public/assets/chevronDown.png" alt="">
+          </div>
+          <div id="badRequest" class="content__item-details">
+            <div class="content__item-statusCode">
+              400
+            </div>
+            <div class="content__item-example">
+              new tael.BadRequestError("Zelda44@yahoo does not appear to be a valid email address.");
+            </div>
+          </div>
+        </div>
+
+        <div class="content__item">
+          <div class="content__item-header" onclick="showItem('conflictingRecord')">
+            <div class="content__item-header__title">
+              Conflicting Record
+            </div>
+            <img class="content__item-header__chevron" src="./public/assets/chevronDown.png" alt="">
+          </div>
+          <div id="conflictingRecord" class="content__item-details">
+            <div class="content__item-statusCode">
+              409
+            </div>
+            <div class="content__item-example">
+              new tael.ConflictingRecordError("That username already exists.");
+            </div>
+          </div>    
+        </div>
+      </div>
+
+
+      <!--<div id="success">
+        error
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sit officia ducimus quisquam recusandae, nisi dolor fugit expedita laborum fuga obcaecati provident ipsam, dolorum eligendi eveniet magni vitae sint alias!
+      </div>-->
+    </div>
+
+  </div>
+
+  <script src="./public/js/app.js"></script>
+</body>
+</html>
